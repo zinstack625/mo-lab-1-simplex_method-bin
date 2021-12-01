@@ -2,6 +2,7 @@ use ndarray::*;
 use simplex_method::Table;
 
 fn main() {
+    env_logger::init();
     let constr_coeff =
         array![[4f64, 1f64, 1f64],
          [1f64, 1f64, 0f64],
